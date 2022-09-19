@@ -1,0 +1,22 @@
+{% extends "bootstrap/base.html" %}
+{% block html_attribs %} lang="en"{% endblock %}
+{% block title %}Top Gainers{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+  <!-- ... -->
+</div>
+{% endblock %}
+
+{% block content %}
+
+        <h3>Top Stock Gainers Today</h3>
+
+        <body>
+          <div>
+            {{ table | safe }}
+          </div>
+        </body>
+
+
+{% endblock %}
