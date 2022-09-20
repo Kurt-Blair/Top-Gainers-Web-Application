@@ -1,4 +1,4 @@
-# flask-s3-web-application by Kurt Blair
+# flask-s3-web-application
 
 Web application created with flask and bootstrap to display top gainers in the stock market today.
 
